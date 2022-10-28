@@ -1,4 +1,4 @@
-.\arm_single_cycle\top.v
+.\arm_single_cycle\top.v 
 .\arm_single_cycle\regfile.v
 .\arm_single_cycle\mux2.v
 .\arm_single_cycle\imem.v

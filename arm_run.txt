@@ -1,0 +1,17 @@
+.\arm_single_cycle\top.v
+.\arm_single_cycle\regfile.v
+.\arm_single_cycle\mux2.v
+.\arm_single_cycle\imem.v
+.\arm_single_cycle\flopr.v
+.\arm_single_cycle\flopenr.v
+.\arm_single_cycle\extend.v
+.\arm_single_cycle\dmem.v
+.\arm_single_cycle\decode.v
+.\arm_single_cycle\datapath.v
+.\arm_single_cycle\controller.v
+.\arm_single_cycle\condlogic.v
+.\arm_single_cycle\condcheck.v
+.\arm_single_cycle\arm.v
+.\arm_single_cycle\alu.v
+.\arm_single_cycle\adder.v
+.\arm_single_tb.v

@@ -17,11 +17,13 @@ module alu ( input [31:0] a,b,
   11: or
   */
   always @(*)
-    casex (ALUControl[1:0]) //case, casex, casez
+    begin
+      casex (ALUControl[1:0]) //case, casex, casez
       2'b0?: Result = sum;
       2'b10: Result = a & b;
       2'b11: Result = a | b;
-    endcase
+      endcase
+    end
   
  //flags: result -> negative, zero
   assign negative = Result[31];
